@@ -76,7 +76,7 @@ nav ul li:hover{
 /*kraj headera*/
 
 #hero{
-    width: 100vw;
+    width: 100%;
     height: 85vh;
     display: flex;
 }
@@ -104,7 +104,7 @@ nav ul li:hover{
     bottom: 0;
     width: 100%;
     height: 50%;
-    background-image: linear-gradient(0deg,#161616,rgba(25,25,25,0));
+    background-image: linear-gradient(0deg,#101010,rgba(25,25,25,0));
 }
 .articleBg{
     position: absolute;
@@ -131,11 +131,7 @@ nav ul li:hover{
     color: white;
     margin-bottom: 1rem;
 }
-.text-area h3{
-    font-size: 1.5rem;
-    color: white;
-    margin-bottom: 1rem;
-}
+
 
 
 
@@ -145,15 +141,26 @@ nav ul li:hover{
 }
 #topRightHero{
     height: 50%;
-    position: relative;
     color: white;
+    position: relative;
     transition-duration: 1s;
+}
+#topRightHero:hover{
+    color: #ff5000;
 }
 #bottomRightHero{
     height: 50%;
     position: relative;
     color: white;
     transition-duration: 1s;
+}
+#bottomRightHero:hover{
+    color: #ff5000;
+}
+.text-area h3{
+    font-size: 1.5rem;
+    color: inherit;
+    margin-bottom: 1rem;
 }
 
 
@@ -172,4 +179,62 @@ nav ul li:hover{
 }
 .categories span:hover{
     color: white;
+}
+
+
+
+
+
+/*Main articles*/
+#content-articles{
+    background-color: #191919;
+    padding-top: 3rem;
+}
+.content-row{
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid #393939;
+    padding:1rem 2rem 3rem 2rem;
+}
+.content-row h1{
+    color: #ff5000;
+    font-size: 2.5rem;
+    padding: 0 0 0.8rem 1rem;
+}
+.article-section{
+    display: flex;
+    width: 100%;
+    height:85%;
+}
+.article-box{
+    position: relative;
+    width: 25%;
+    margin: 0 0.6rem;
+    height: 100%;
+}
+.article-box img{
+    position: absolute;
+    z-index: 1;
+}
+.article-box h2{
+    font-size: 1.3rem;
+    position: absolute;
+    padding: 0 0.6rem 0.8rem 0.6rem;
+    color: white;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}
+.article-box:hover{
+    transform: scale(1.05);
+    transition-duration: 0.8s;
+}
+
+
+
+
+footer{
+    background-color:#393939;
+    width: 100%;
+    height: 50vh;
 }
