@@ -1,0 +1,175 @@
+/*
+Color picker
+#1A1A1D
+#4E4E50
+#6F2232
+#950740
+#C3073F
+#ff5000
+#FC6600
+*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700;900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.afix{
+    width: inherit;
+    height: inherit;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+article{
+    color: inherit;
+    height: 100%;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: #191919;
+    height:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#logo{
+    padding:0 1.5rem;
+    font-family: 'Russo One', sans-serif;
+}
+#evo{
+    color:#ff5000;
+    font-size:3rem;
+}
+#magazin{
+    color: #f1f1f1;
+    padding-left:0.1rem;
+    font-size:1rem;
+}
+nav ul{
+    color:#f1f1f1;
+    display: flex;
+    padding: 0 1.2rem;
+}
+nav ul li{
+    padding:0 0.7rem;
+    font-size: 1.6rem;
+}
+nav ul li:hover{
+    color:#ff5000;
+}
+/*kraj headera*/
+
+#hero{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+/*pozadinska slika articla*/
+
+
+
+#leftHero{
+    color: white;
+    position: relative;
+    width: 66%;
+    height: 100%;
+    transition-duration: 1s;
+}
+#leftHero:hover{
+    color:#ff5000;
+}
+#leftHero img{
+    filter: brightness(95%);
+}
+.bgmaska{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(0deg,#161616,rgba(25,25,25,0));
+}
+.articleBg{
+    position: absolute;
+    z-index: 1;
+}
+.text-area{
+    position:absolute;
+    color: inherit;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    padding: 1.7rem;
+}
+#leftHero .text-area{
+    padding:3rem 2rem;
+}
+.text-area h1{
+    font-size: 3.5rem;
+    color: inherit;
+    font-weight: 900;
+}
+.text-area h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.text-area h3{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+
+#rightHero{
+    width: 40%;
+    height: 100%;
+}
+#topRightHero{
+    height: 50%;
+    position: relative;
+    color: white;
+    transition-duration: 1s;
+}
+#bottomRightHero{
+    height: 50%;
+    position: relative;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+
+/*Tagovi u uglu slika*/
+.categories{
+    width: fit-content;
+}
+.categories span{
+    color: black;
+    font-size: 1.1rem;
+    padding:0.2rem 0.5rem;
+    background-color: #ff5000;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.categories span:hover{
+    color: white;
+}
