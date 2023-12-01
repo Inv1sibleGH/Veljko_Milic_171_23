@@ -1,0 +1,89 @@
+#kontakt-box{
+
+    height: 80vh;
+
+    display: flex;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    padding: 5rem;
+}
+#formular{
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem 1.5rem;
+}
+#kontakt-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+iframe{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form h1{
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+#inp-ime{
+    width: 49%;
+    height: 2rem;
+    float: left;
+    margin-bottom:1rem;
+    background-color: gray;
+    border: 1px solid #191919;
+}
+#inp-prezime{
+    width: 49%;
+    height: 2rem;
+    float: right;
+    margin-bottom:1rem;
+    background-color: gray;
+    border: 1px solid #191919;
+}
+#inp-email{
+    width: 100%;
+    height: 2rem;
+    margin-bottom:1rem;
+    background-color: gray;
+    border: 1px solid #191919;
+}
+#inp-tema{
+    width: 100%;
+    height: 2rem;
+    margin-bottom:1rem;
+    background-color: gray;
+    border: 1px solid #191919;
+}
+#inp-textarea{
+    width: 100%;
+    height: 20%;
+    margin-bottom:1rem;
+    background-color: gray;
+    border: 1px solid #191919;
+}
+input::placeholder{
+    color: #393939;
+    padding-left: 1rem;
+    font-family: 'Russo One', sans-serif;
+}
+textarea::placeholder{
+    padding-top: 1rem;
+    color: #393939;
+    padding-left: 1rem;
+    font-family: 'Russo One', sans-serif;
+}
+#inp-submit{
+    width: 100%;
+    height: 3rem;
+    background-color:#ababab;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+}
+#kontakt-info h2{
+    margin: 0.2rem 0;
+    color: rgb(15, 15, 15);
+}
