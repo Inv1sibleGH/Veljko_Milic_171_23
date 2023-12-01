@@ -238,7 +238,7 @@ nav ul li:hover{
 
 
 footer{
-    background-color:#3a3a3a;
+    background-color:#e3e3e3;
     width: 100%;
     padding: 3rem 8rem;
     display: flex;
@@ -319,6 +319,7 @@ footer{
 #contacts-box h2{
     font-size: 2rem;
     align-self: center;
+    color: #ff5000;
 }
 #contacts-box p{
     font-size: 1.5rem;
@@ -334,6 +335,7 @@ footer{
 #links-box h2{
     font-size: 2rem;
     align-self: center;
+    color: #ff5000;
 }
 #links-box p{
     font-size: 1.5rem;
