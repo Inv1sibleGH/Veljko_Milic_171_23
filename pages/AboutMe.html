@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        #box{
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Stylesheets/galerija.css">
 </head>
 <body>
-    <div id="box"></div>
+    <header>
+        <a href="../index.html"><div id="logo"><span id="evo">EVO</span><span id="magazin">magazin</span></div></a>
+        <nav>
+            <ul id="desniNav">
+                <li><a href="pages/Articles/BrdskeTrke.html">Brdske trke</a></li>
+                <li><a href="pages/Articles/KruzneTrke.html">Kružne trke</a></li>
+                <li><a href="pages/Articles/wrc.html">WRC</a></li>
+                <li><a href="pages/Articles/Blog.html">Blog</a></li>
+                <li><a href="pages/Articles/Galerija.html">Galerija</a></li>
+                <li><a href="pages/AboutMe.html">O autoru</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="galery"></div>
+    </main>
+    <footer>
+        <div id="left-footer">
+            <div id="mail-box">
+                <form method="get">
+                    <label for="mail-frame" id="mail-label">Pretplatite se na Evo magazin:</label><br/>
+                    <div id="mail-deo">
+                        <input type="mail" id="mail-frame" name="fname" required="required" placeholder="Vaš mail" />
+                        <input type="submit" id="mail-submit" name="potvrdi" /> 
+                    </div>
+                </form>
+            </div>
+            <div id="socials">
+                <h2>Socials:</h2>
+                <div id="socials-box">
+                    <a href="https://www.instagram.com/"><img src="/assets/Icons/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/?locale=sr_RS"><img src="/assets/Icons/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/"><img src="/assets/Icons/youtube.png" alt="Youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div id="right-footer">
+            <div id="contacts-box">
+                <h2>Kontakti</h2>
+                <a href="#"><p>Kontaktirajte nas</p></a>
+                <a href="#"><p>Sitemap</p></a>
+                <a href="rss.xml" target="_blank"><p>RSS</p></a>
+            </div>
+            <div id="links-box">
+                <h2>Brzi linkovi</h2>
+                <a href="#"><p>Brdske trke</p></a>
+                <a href="#"><p>Kruzne trke</p></a>
+                <a href="#"><p>WRC</p></a>
+                <a href="#"><p>Blog</p></a>
+                <a href="#"><p>Galerija</p></a>
+                <a href="#"><p>About me</p></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

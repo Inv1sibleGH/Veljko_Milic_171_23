@@ -38,6 +38,9 @@ body{
     background-color: #f1f1f1;
     font-family: 'Roboto Condensed', sans-serif;
 }
+main{
+    background-color:#393939;
+}
 ul{
     list-style-type: none;
 }

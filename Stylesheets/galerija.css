@@ -1,0 +1,30 @@
+#galery{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+#galery h1{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+#galery-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.img-box{
+    width: 23%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.img-box img{
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75)
+}
+.img-box img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
