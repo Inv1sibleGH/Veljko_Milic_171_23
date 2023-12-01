@@ -39,7 +39,7 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 main{
-    background-color:#393939;
+    background-color:#252525;
     min-height: 80vh;
 }
 ul{
@@ -238,7 +238,7 @@ nav ul li:hover{
 
 
 footer{
-    background-color:#4d4d4d;
+    background-color:#3a3a3a;
     width: 100%;
     padding: 3rem 8rem;
     display: flex;
@@ -337,4 +337,34 @@ footer{
 }
 #links-box p{
     font-size: 1.5rem;
+}
+
+#aboutme-box{
+    display: flex;
+    width: 100%;
+    padding: 5rem 15rem;
+}
+#aboutme-box img{
+    height: 20rem;
+    width: auto;
+    box-shadow: -2px 1px 23px 4px rgba(0,0,0,0.75);
+}
+#oautoru-box{
+    width: 100%;
+    display: flex;
+    padding: 5rem;
+    box-shadow: -2px 1px 23px 4px rgba(0,0,0,0.75);
+}
+#aboutme-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+#aboutme-text h1{
+    font-size: 3rem;
+    align-self: center;
+    color: #ff5000;
+}#aboutme-text h3{
+    font-size: 1.8rem;
+    color: white;
 }
